@@ -98,7 +98,7 @@
             <li>
                 Step 4-1 : Change the type of "Features" into character vector
                 <ul>
-                    <li>Features : </li>
+                    <li>Features : features is a vector of character that explains the what each column of data means in "X_test.txt" or "X_train.txt"</li>
                 </ul>
             </li>
             <li>Step 4-2 : Using colnames() function, add column names for more descriptive data. Remember first two columns are added manually(i.e. "TestSet = cbind(subject_test, y_test, X_test)")</li>
